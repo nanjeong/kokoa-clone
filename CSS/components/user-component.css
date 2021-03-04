@@ -1,0 +1,45 @@
+.friends-screen {
+  padding-left: var(--horizontal-space);
+}
+
+.user-component {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__profile {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+
+.profile-sm {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.user-component__text {
+  margin-left: 15px;
+}
+
+.user-component__title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.title-md {
+  font-weight: normal;
+}
+
+.user-component__subtitle {
+  margin-top: 6px;
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+  font-weight: 500;
+}

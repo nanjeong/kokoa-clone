@@ -36,6 +36,38 @@
         <i class="fas fa-info-circle"></i> Friends' Names Display <i class="fas fa-chevron-right fa-xs"></i>
     </a>
 
+    <main class="friends-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__profile" src="data:image/jpeg;base64,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" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title">User name</h4>
+                    <!--<h6 class="user-component__subtitle">Please check My Kokoa Account info</h6>-->
+                </div>
+            </div>
+            <div class="user-component__column"></div>
+        </div>
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channel-header">
+                <span>Channel</span>
+                <i class="fas fa-chevron-up fa-xs"></i>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img class="user-component__profile profile-sm" src="https://images.unsplash.com/photo-1539844647304-7702310556ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHw%3D&w=1000&q=80" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title title-md">Channel</h4>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span>2</span>
+                    <i class="fas fa-chevron-right fa-xs"></i>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__btn">
