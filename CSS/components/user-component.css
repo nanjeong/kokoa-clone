@@ -1,10 +1,7 @@
-.friends-screen {
-  padding-left: var(--horizontal-space);
-}
-
 .user-component {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .user-component__column:first-child {
@@ -18,10 +15,10 @@
   border-radius: 25px;
 }
 
-.profile-sm {
+.user-component__profile--sm {
   width: 50px;
   height: 50px;
-  border-radius: 20px;
+  border-radius: 21px;
 }
 
 .user-component__text {
@@ -33,7 +30,7 @@
   font-weight: 600;
 }
 
-.title-md {
+.user-component__title--not-bold {
   font-weight: normal;
 }
 
@@ -42,4 +39,13 @@
   color: rgba(0, 0, 0, 0.3);
   font-size: 14px;
   font-weight: 500;
+}
+
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.35);
+}
+
+.user-component__column span {
+  font-size: 15px;
+  font-weight: 600;
 }

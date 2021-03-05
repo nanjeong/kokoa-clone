@@ -9,3 +9,25 @@
 #friends-display-link i {
   color: rgba(0, 0, 0, 0.16);
 }
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.friends-screen__channel {
+  margin-top: 15px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.friends-screen__channel-header {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.35);
+}
+
+.friends-screen__channel-header span {
+  font-size: 13px;
+  font-weight: 600;
+}
