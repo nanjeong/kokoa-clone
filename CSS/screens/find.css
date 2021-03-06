@@ -1,0 +1,141 @@
+.find-icons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: var(--grey-border);
+  padding-bottom: 25px;
+}
+
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find-icons__icon i {
+  font-size: 25px;
+}
+
+.find-icons span {
+  margin-top: 15px;
+}
+
+.recommend {
+  margin-top: 15px;
+  border-bottom: var(--grey-border);
+}
+
+.recommend-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.recommend-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.recommend-content span {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.open-chat {
+  margin-top: 15px;
+}
+
+.open-chat__component {
+  display: flex;
+  align-items: center;
+}
+
+.open-chat__bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.open-chat__title {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.open-chat__link {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.open-chat span i {
+  margin-left: 5px;
+  color: rgba(0, 0, 0, 0.15);
+}
+
+.open-chat__component {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  padding: 15px 0px;
+  border-bottom: var(--grey-border);
+}
+
+.open-chat__component--title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.open-chat__component--hashtag {
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.open-chat__component--explain {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+}
+
+.open-chat__component--explain span {
+  margin-left: 4px;
+  color: rgba(0, 0, 0, 0.35);
+  font-size: 13.5px;
+  font-weight: 500;
+}
+
+.open-chat__component--explain span:last-child {
+  color: hotpink;
+}
+
+.open-chat__component--thumnail {
+  width: 85px;
+  height: 85px;
+  border-radius: 10px;
+}
+
+.open-chat__component--heart {
+  padding: 4px 8px;
+  background-color: rgba(0, 0, 0, 0.45);
+  border-radius: 9.5px;
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  right: 6.5px;
+  bottom: 7.5px;
+}
+
+.open-chat__component--column {
+  position: relative;
+}
+
+.open-chat__component--member {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
