@@ -7,4 +7,6 @@ index, friends, chats 페이지, find 페이지 icon-bar까지 nomadcoder의 코
 
 ---
 
-알게 된 것: flex는 부모한테 적용한다!
+알게 된 것:  
+flex는 부모한테 적용한다.  
+화면에서 반복되는 부분은 따로 css파일을 만들어 재사용한다.
