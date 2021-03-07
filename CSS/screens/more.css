@@ -1,0 +1,90 @@
+.red-icon {
+  color: tomato;
+}
+
+.more-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.more-icons__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+  padding: 0px 30px;
+}
+
+.more-icons__red-dot {
+  position: relative;
+}
+
+.more-icons__red-dot .red-dot {
+  bottom: -2px;
+}
+
+.more-icons__icon span {
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.suggestions__apps--app span {
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.more-icons:nth-child(3) {
+  padding-bottom: 20px;
+  border-bottom: var(--grey-border);
+  margin-bottom: 15px;
+}
+
+.transparency {
+  opacity: 0;
+}
+
+.suggestions {
+  display: flex;
+  flex-direction: column;
+}
+
+.suggestions__title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #2e363e;
+  margin-bottom: 25px;
+}
+
+.suggestions__apps {
+  display: flex;
+  justify-content: space-between;
+}
+
+.suggestions__apps--app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.suggestions__apps--app img {
+  width: 45px;
+  height: 45px;
+  border-radius: 6px;
+  margin: 0px 30px;
+}
+
+.suggestions__apps--app-name {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.img-substitution {
+  width: 45px;
+  height: 45px;
+}
